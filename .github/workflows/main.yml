@@ -48,6 +48,6 @@ jobs:
           port: 22
           script: |
             cd ~/Fusionpact/fusionpact-devops-challenge
-            sudo docker-compose pull
-            sudo docker-compose up -d
+            sudo docker compose pull
+            sudo docker compose up -d
 
