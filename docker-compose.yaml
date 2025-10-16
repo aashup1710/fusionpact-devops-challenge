@@ -17,7 +17,7 @@ services:
       - backend
     restart: "unless-stopped"
 
-   prometheus:
+  prometheus:
     image: prom/prometheus
     container_name: prometheus
     ports:
